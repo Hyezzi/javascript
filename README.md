@@ -126,7 +126,7 @@
     - Array.prototype.reduceRight() : 배열의 각 값에 대해 오른쪽에서 왼쪽으로 함수를 적용하여 단일 값으로 줄입니다.
     - Array.prototype.some() : R배열중의 적어도 한 요소가 테스팅 함수를 만족시킨 다면 true를 반환합니다.
     - Array.prototype.values() : 배열의 요소값들에 대한 Array Iterator 객체를 반환합니다.
-    - Array.prototype[@@iterator]() : 배열의 요소값들에 대한 Array Iterator 객체를 반환합니다.
+    - Array.prototype\[@@iterator\]() : 배열의 요소값들에 대한 Array Iterator 객체를 반환합니다.
 
 
 ## Spread Operator (Array/Object Spread)
