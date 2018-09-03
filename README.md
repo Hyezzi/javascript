@@ -1,7 +1,7 @@
 ## javascript ES5 Essentials
-1. Promises
-2. Const / Let
-3. Arrow Functions
-4. Array Methods (map, reduce, filter, slice, splice)
-5. Spread Operator (Array/Object Spread)
-6. Export / import
+#### Promises
+#### Const / Let
+#### Arrow Functions
+#### Array Methods (map, reduce, filter, slice, splice)
+#### Spread Operator (Array/Object Spread)
+#### Export / import
