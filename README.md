@@ -34,15 +34,15 @@
 ![프로미스 프로세스](https://joshua1988.github.io/images/posts/web/javascript/promise.svg)
 
 ## Const / Let
-  0. 자바스크립트에는 세가지 형태의 변수가 있다; **const, let, var**
-  1. **const** (block scoped)
+  - 자바스크립트에는 세가지 형태의 변수가 있다; **const, let, var**
+  - **const** (block scoped)
     - 변수 재선언 불가능
     - immutable
     - 참조형(Complex type: array, object, function)의 경우 const가 보다 적합하다다. (참조형은 const로 선언하더라도 멤버값을 조작하는 것이 가능)
-  2. **let** (block scoped)
+  - **let** (block scoped)
     - 변수 재선언 불가능
     - mutable
-  3. **var** (function scoped)
+  - **var** (function scoped)
     - 변수 재선언 가능
       ```
       // 이미 만들어진 변수이름으로 재선언해도 문제가 없음. 
