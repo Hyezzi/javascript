@@ -85,32 +85,33 @@
     ```
 
 ## Array Methods (map, reduce, filter, slice, splice)
-1. 기본 메소드
-    - Array.from() : 유사 배열 또는 반복 가능한 객체로부터 새로운 배열 인스턴스를 생성합니다.
-    - Array.isArray() : 만약 변수가 배열이면 true를 아니면 false를 반환합니다.
-    - Array.observe() : 객체의 Object.observe()와 유사하게 배열에 대한 변경점을 비동기로 관찰합니다. 이것은 발생한 순서대로 변경 스트림을 제공합니다.
-    - Array.of() : 전달인자의 개수나 데이터 타입에 관계없이 새 배열 인스턴스를 생성합니다.
-  2. 변경자 메서드 : 변경자 메서드는 배열 수정.
-    - Array.prototype.copyWithin() : 배열 내의 지정된 요소들을 동일한 배열 내에서 복사합니다.
-    - Array.prototype.fill() : 배열 안의 시작 인덱스부터 끝 인덱스까지의 요소값을 지정된 정적 값으로 채웁니다.
-    - Array.prototype.pop() : 배열에서 마지막 요소를 뽑아내고, 그 요소를 반환합니다.
-    - Array.prototype.push() : 배열의 끝에 하나 이상의 요소를 추가하고, 변경된 배열의 길이를 반환합니다.
-    - Array.prototype.reverse() : 배열의 요소 순서를 반전시킵니다. - 첫 번째가 마지막이 되고 마지막이 첫 번째가 됩니다.
-    - Array.prototype.shift() : 배열에서 첫 번째 요소를 삭제하고 그 요소를 반환합니다.
-    - Array.prototype.sort() : 배열의 요소를 정렬하고 그 배열을 반환합니다.
-    - Array.prototype.splice() : 배열에서 요소를 추가/삭제합니다.
-    - Array.prototype.unshift() : 배열의 앞에 하나 이상의 요소를 추가하고 새로운 길이를 반환합니다.
-  3. 접근자 메서드 : 배열을 수정하지 않고 배열 일부를 반환합니다.
-    - Array.prototype.concat() : 배열과, 인자로 주어진 배열/값을 결합해 새로운 배열을 만들고, 이 새 배열을 반환합니다.
-    - Array.prototype.includes() : 배열에 특정 요소가 포함돼있는지 알아내어 true 또는 false를 적절히 반환합니다.
-    - Array.prototype.indexOf() : 배열에서 지정한 값과 같은 요소의 첫 인덱스를 반환합니다. 없으면 -1을 반환합니다.
-    - Array.prototype.join() : 배열의 모든 요소를 문자열로 변환하여 합칩니다.
-    - Array.prototype.lastIndexOf() : 배열에서 지정한 값과 같은 요소의 마지막 인덱스를 반환합니다. 없으면 -1을 반환합니다.
-    - Array.prototype.slice() : 배열의 일부를 추출한 새 배열을 반환합니다.
-    - Array.prototype.toSource() : 지정한 배열을 나타내는 배열 리터럴을 반환합니다.새로운 배열을 만들기 위해 이 값을 사용할 수 있습니다.
-    - Array.prototype.toString() : 배열과 요소를 반환하는 문자열을 반환합니다. Object.prototype.toString() 메서드를 재정의합니다.
-    - Array.prototype.toLocaleString() : 배열과 요소를 나타내는 지역화된 문자열을 반환합니다. Object.prototype.toLocaleString() 메서드를 재정의합니다.
-   4. 반복 메서드
+1. **기본 메소드**
+  - Array.from() : 유사 배열 또는 반복 가능한 객체로부터 새로운 배열 인스턴스를 생성합니다.
+  - Array.isArray() : 만약 변수가 배열이면 true를 아니면 false를 반환합니다.
+  - Array.observe() : 객체의 Object.observe()와 유사하게 배열에 대한 변경점을 비동기로 관찰합니다. 이것은 발생한 순서대로 변경 스트림을 제공합니다.
+  - Array.of() : 전달인자의 개수나 데이터 타입에 관계없이 새 배열 인스턴스를 생성합니다.
+  
+2. **변경자 메서드** : 변경자 메서드는 배열 수정.
+  - Array.prototype.copyWithin() : 배열 내의 지정된 요소들을 동일한 배열 내에서 복사합니다.
+  - Array.prototype.fill() : 배열 안의 시작 인덱스부터 끝 인덱스까지의 요소값을 지정된 정적 값으로 채웁니다.
+  - Array.prototype.pop() : 배열에서 마지막 요소를 뽑아내고, 그 요소를 반환합니다.
+  - Array.prototype.push() : 배열의 끝에 하나 이상의 요소를 추가하고, 변경된 배열의 길이를 반환합니다.
+  - Array.prototype.reverse() : 배열의 요소 순서를 반전시킵니다. - 첫 번째가 마지막이 되고 마지막이 첫 번째가 됩니다.
+  - Array.prototype.shift() : 배열에서 첫 번째 요소를 삭제하고 그 요소를 반환합니다.
+  - Array.prototype.sort() : 배열의 요소를 정렬하고 그 배열을 반환합니다.
+  - Array.prototype.splice() : 배열에서 요소를 추가/삭제합니다.
+  - Array.prototype.unshift() : 배열의 앞에 하나 이상의 요소를 추가하고 새로운 길이를 반환합니다.
+3. **접근자 메서드** : 배열을 수정하지 않고 배열 일부를 반환합니다.
+  - Array.prototype.concat() : 배열과, 인자로 주어진 배열/값을 결합해 새로운 배열을 만들고, 이 새 배열을 반환합니다.
+  - Array.prototype.includes() : 배열에 특정 요소가 포함돼있는지 알아내어 true 또는 false를 적절히 반환합니다.
+  - Array.prototype.indexOf() : 배열에서 지정한 값과 같은 요소의 첫 인덱스를 반환합니다. 없으면 -1을 반환합니다.
+  - Array.prototype.join() : 배열의 모든 요소를 문자열로 변환하여 합칩니다.
+  - Array.prototype.lastIndexOf() : 배열에서 지정한 값과 같은 요소의 마지막 인덱스를 반환합니다. 없으면 -1을 반환합니다.
+  - Array.prototype.slice() : 배열의 일부를 추출한 새 배열을 반환합니다.
+  - Array.prototype.toSource() : 지정한 배열을 나타내는 배열 리터럴을 반환합니다.새로운 배열을 만들기 위해 이 값을 사용할 수 있습니다.
+  - Array.prototype.toString() : 배열과 요소를 반환하는 문자열을 반환합니다. Object.prototype.toString() 메서드를 재정의합니다.
+  - Array.prototype.toLocaleString() : 배열과 요소를 나타내는 지역화된 문자열을 반환합니다. Object.prototype.toLocaleString() 메서드를 재정의합니다.
+   4. **반복 메서드**
     배열을 처리하는 동안, 각각의 배열요소에 대해 (인자로 주어진) 콜백 함수를 호출하는 메서드가 몇 개 있습니다. 이러한 메서드들은 메서드의 호출시점에 배열의 길이를 확인한 후, 그 길이까지의 배열요소에 대해서만 콜백을 수행하며,  콜백 중에 추가된 배열 요소(메서드 호출시점에 확인된 길이보다 더 큰 인덱스값을 갖는 요소들)에 대해서는 콜백을 수행하지 않습니다. 만약 메서드의 실행 도중에  배열의 변경(요소의 값 설정 또는 배열요소를 삭제하는 등)이 발생하고, 이런 변경이후에 메서드가 해당 배열 요소에 대해 콜백을 호출하게 되면  작업 결과에 영향을 줄 수도 있습니다. 이러한 사례들에 있어 메서드들의 구체적인 동작은 잘 정의되어 있지만, 당신의 코드를 읽을 다른 사람들이 혼란스럽지 않게 해야 합니다. 만약 이런 메서드를 이용해 배열을 변경해야한다면, 원본 배열 대신 새로운 배열로 값을 복사하는 방식으로 처리하십시오.
 
     Array.prototype.entries()
