@@ -46,13 +46,13 @@
   3. **var** (function scoped)
     - 변수 재선언 가능
     ```
-    // 이미 만들어진 변수이름으로 재선언해도 문제가 없음. 
-    var a = 'hi'
-    var a = 'hello'
+      // 이미 만들어진 변수이름으로 재선언해도 문제가 없음. 
+      var a = 'hi'
+      var a = 'hello'
 
-    // hoisting으로 인해 ReferenceError에러가 없음. 
-    c = 'no error'
-    var c
+      // hoisting으로 인해 ReferenceError에러가 없음. 
+      c = 'no error'
+      var c
     ```
 ## Arrow Functions
 ## Array Methods (map, reduce, filter, slice, splice)
