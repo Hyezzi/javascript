@@ -54,6 +54,20 @@
       var c
       ```
 ## Arrow Functions
+  - 화살표 함수는 항상 익명. 
+  - 예제코드
+    ```
+      var materials = [
+      'Hydrogen',
+      'Helium',
+      'Lithium',
+      'Beryllium'
+    ];
+
+    console.log(materials.map(material => material.length));
+    // expected output: Array [8, 6, 7, 9]
+
+    ```
 
 ## Array Methods (map, reduce, filter, slice, splice)
 ## Spread Operator (Array/Object Spread)
