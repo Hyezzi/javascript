@@ -34,6 +34,11 @@
 ![프로미스 프로세스](https://joshua1988.github.io/images/posts/web/javascript/promise.svg)
 
 ## Const / Let
+  - 자바스크립트에는 세가지 형태의 변수가 있다; const, let, var
+  1. **const** (block scoped)
+    - 
+  2. **let** (block scoped)
+  3. **var** (function scoped)
 ## Arrow Functions
 ## Array Methods (map, reduce, filter, slice, splice)
 ## Spread Operator (Array/Object Spread)
