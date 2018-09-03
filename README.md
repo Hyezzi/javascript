@@ -86,9 +86,9 @@
 
 ## Array Methods (map, reduce, filter, slice, splice)
   1. 기본 메소드
-    - Array.from() : 유사 배열 또는 반복 가능한 객체로부터 새로운 배열 인스턴스를 생성합니다.
-    - Array.isArray() : 만약 변수가 배열이면 true를 아니면 false를 반환합니다.
-    - Array.observe() : 객체의 Object.observe()와 유사하게 배열에 대한 변경점을 비동기로 관찰합니다. 이것은 발생한 순서대로 변경 스트림을 제공합니다.
+    1. Array.from() : 유사 배열 또는 반복 가능한 객체로부터 새로운 배열 인스턴스를 생성합니다.
+    1. Array.isArray() : 만약 변수가 배열이면 true를 아니면 false를 반환합니다.
+    1. Array.observe() : 객체의 Object.observe()와 유사하게 배열에 대한 변경점을 비동기로 관찰합니다. 이것은 발생한 순서대로 변경 스트림을 제공합니다.
     - Array.of() : 전달인자의 개수나 데이터 타입에 관계없이 새 배열 인스턴스를 생성합니다.
   2. 변경자 메서드 : 변경자 메서드는 배열 수정.
     - Array.prototype.copyWithin() : 배열 내의 지정된 요소들을 동일한 배열 내에서 복사합니다.
