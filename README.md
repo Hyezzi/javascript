@@ -54,8 +54,23 @@
       var c
       ```
 ## Arrow Functions
-  - 화살표 함수는 항상 익명. 
-  - 예제코드
+  - 화살표 함수는 항상 익명 함수 
+  - 매개변수가 하나뿐인 경우 괄호는 선택사항
+  - 매개변수가 없는 함수는 괄호가 필요
+  - 예제 코드 1
+       ```
+      (param1, param2, …, paramN) => { statements }
+      (param1, param2, …, paramN) => expression
+      // 다음과 동일함:  => { return expression; }
+
+      // 매개변수가 하나뿐인 경우 괄호는 선택사항:
+      (singleParam) => { statements }
+      singleParam => { statements }
+
+      // 매개변수가 없는 함수는 괄호가 필요:
+      () => { statements }
+      ```
+  - 예제코드 2
     ```
       var materials = [
       'Hydrogen',
