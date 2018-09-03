@@ -17,7 +17,7 @@
         : 주어진 이유로 거부하는 Promise 객체를 반환합니다.
     4. **Promise.resolve(value)**
         : 주어진 값으로 이행하는 Promise 객체를 반환합니다. 값이 then 가능한 (즉, then 메서드가 있는) 경우, 반환된 프로미스는 then 메서드를 따라가고 마지막 상태를 취합니다. 그렇지 않은 경우 반환된 프로미스는 주어진 값으로 이행합니다. 어떤 값이 프로미스인지 아닌지 알 수 없는 경우, Promise.resolve(value) 후 반환값을 프로미스로 처리할 수 있습니다.
-  - **예제 코드**
+  - **예제 코드(*fetch()는 promise 객체를 반환함*)**
     ```
     fetch('https://api-to-call.com/endpoint').then(response=>{
       if (response.ok){
@@ -28,7 +28,7 @@
       console.log(networkError.message);
     }).then(jsonResponse=>jsonResponse)
     ```
-    *참고* fetch()는 promise 객체를 반환함
+    
     
 ![프로미스 프로세스](https://joshua1988.github.io/images/posts/web/javascript/promise.svg)
 
