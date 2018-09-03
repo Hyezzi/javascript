@@ -1,4 +1,4 @@
-# javascript ES5 Essentials
+# Javascript ES5 Essentials
 ### Promises
 ### Const / Let
 ### Arrow Functions
